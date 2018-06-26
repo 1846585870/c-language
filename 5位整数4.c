@@ -12,7 +12,6 @@ int main()
 		c=c/10;
 		n++;
 	}
-	printf("%d\n",n);
 	b[0]=a%10;
 	if(n>=2)
 	{
@@ -23,9 +22,6 @@ int main()
 		}
 	}
 	for(i=n-1;i>=0;i--)
-		printf("%d",b[i]);
-    printf("\n");
-	for(i=0;i<n;i++)
-		printf("%d",b[i]);
+		printf("%d ",b[i]);
 	return 0;
 }
